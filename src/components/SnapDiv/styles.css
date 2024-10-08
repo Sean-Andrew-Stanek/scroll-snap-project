@@ -1,0 +1,5 @@
+.snapDivContainer {
+    scroll-snap-align: end; /* Snaps to the bottom of the screen */
+    scroll-snap-stop: always; /* Stops a rapid scroll (maybe) */
+    height: min(100dvh, 100vh); /* falls back to 100vh if dvh isn't supported */
+}
